@@ -1,49 +1,31 @@
+form {
+  border: 3px solid #f1f1f1;
+}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-    <form action="action_page.php">
-      
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px;
+  border: 1px #7BAAD1;
+  box-sizing: border-box;
+}
 
-  <div class="container">
-    <label for="uname" class = "text"><b>First Name</b></label>
-    <input type="text" name="First Name" required>
+button {
+  background-color:#7BAAD1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
 
-    <label for="uname" class = "text"><b>Last Name</b></label>
-    <input type="text" name="First Name" required>
+button:hover {
+  opacity: 0.8;
+}
 
-    <label for="uname" class = "text"><b>Email</b></label>
-    <input type="text" name="Email" required>
+.text{
+  color:  #7BAAD1;
 
-    <label for="uname" class="text"><b>Phone Number</b></label>
-    <input type="text" name="Phone Number" required>
 
-    <p>Enter which classes you would like to attend:</p>
-
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Class 1
-    </label>
-    <label>
-      <input type="checkbox" checked="checked" name="remember" > Class 2
-    </label>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Class 3
-    </label>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Class 4
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-  </div>
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Sign Up</button>
-  </div>
-</form>
-  </body>
-</html>
+}
