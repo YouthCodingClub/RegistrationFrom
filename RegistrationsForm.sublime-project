@@ -1,2 +1,49 @@
-{
-}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <form action="action_page.php">
+      
+
+  <div class="container">
+    <label for="uname" class = "text"><b>First Name</b></label>
+    <input type="text" name="First Name" required>
+
+    <label for="uname" class = "text"><b>Last Name</b></label>
+    <input type="text" name="First Name" required>
+
+    <label for="uname" class = "text"><b>Email</b></label>
+    <input type="text" name="Email" required>
+
+    <label for="uname" class="text"><b>Phone Number</b></label>
+    <input type="text" name="Phone Number" required>
+
+    <p>Enter which classes you would like to attend:</p>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Class 1
+    </label>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" > Class 2
+    </label>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Class 3
+    </label>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Class 4
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+  </div>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Sign Up</button>
+  </div>
+</form>
+  </body>
+</html>
